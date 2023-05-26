@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=windows-1252">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+<body>
+
+
+<h1>ArithmeticOperations.java</h1>
+
+<table class="src">
+
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@628962e5_1'/>
+1
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@628962e5_1'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>package com.lawrence.arithmeticoperations;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@628962e5_2'/>
+2
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@628962e5_2'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@628962e5_3'/>
+3
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@628962e5_3'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>import java.util.List;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@628962e5_4'/>
+4
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@628962e5_4'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@628962e5_5'/>
+5
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@628962e5_5'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>public class ArithmeticOperations {</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@628962e5_6'/>
+6
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@628962e5_6'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@628962e5_7'/>
+7
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@628962e5_7'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>&#9;public int add(int x, int y) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@628962e5_8'/>
+8
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@628962e5_8'>2</a>
+<span>
+
+1. add : Replaced integer addition with subtraction &rarr; KILLED<br/>
+
+2. add : replaced int return with 0 for com/lawrence/arithmeticoperations/ArithmeticOperations::add &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>&#9;&#9;return x + y;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@628962e5_9'/>
+9
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@628962e5_9'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>&#9;}</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@628962e5_10'/>
+10
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@628962e5_10'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@628962e5_11'/>
+11
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@628962e5_11'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>&#9;public int add(List&#60;Integer&#62; integers) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@628962e5_12'/>
+12
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@628962e5_12'>3</a>
+<span>
+
+1. add : replaced int return with 0 for com/lawrence/arithmeticoperations/ArithmeticOperations::add &rarr; KILLED<br/>
+
+2. lambda$add$0 : Replaced integer addition with subtraction &rarr; KILLED<br/>
+
+3. lambda$add$0 : replaced Integer return value with 0 for com/lawrence/arithmeticoperations/ArithmeticOperations::lambda$add$0 &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>&#9;&#9;return integers.stream().reduce(0, (a, b) -&#62; a + b);</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@628962e5_13'/>
+13
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@628962e5_13'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>&#9;}</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@628962e5_14'/>
+14
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@628962e5_14'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@628962e5_15'/>
+15
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@628962e5_15'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>&#9;public int substract(int x, int y) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@628962e5_16'/>
+16
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@628962e5_16'>2</a>
+<span>
+
+1. substract : Replaced integer subtraction with addition &rarr; KILLED<br/>
+
+2. substract : replaced int return with 0 for com/lawrence/arithmeticoperations/ArithmeticOperations::substract &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>&#9;&#9;return x - y;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@628962e5_17'/>
+17
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@628962e5_17'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>&#9;}</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@628962e5_18'/>
+18
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@628962e5_18'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@628962e5_19'/>
+19
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@628962e5_19'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>&#9;public int multiply(int x, int y) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@628962e5_20'/>
+20
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@628962e5_20'>2</a>
+<span>
+
+1. multiply : Replaced integer multiplication with division &rarr; KILLED<br/>
+
+2. multiply : replaced int return with 0 for com/lawrence/arithmeticoperations/ArithmeticOperations::multiply &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>&#9;&#9;return x * y;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@628962e5_21'/>
+21
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@628962e5_21'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>&#9;}</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@628962e5_22'/>
+22
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@628962e5_22'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@628962e5_23'/>
+23
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@628962e5_23'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>&#9;public int divide(int x, int y) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@628962e5_24'/>
+24
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@628962e5_24'>2</a>
+<span>
+
+1. divide : Replaced integer division with multiplication &rarr; KILLED<br/>
+
+2. divide : replaced int return with 0 for com/lawrence/arithmeticoperations/ArithmeticOperations::divide &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>&#9;&#9;return x / y;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@628962e5_25'/>
+25
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@628962e5_25'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>&#9;}</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@628962e5_26'/>
+26
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@628962e5_26'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>}</span></pre></td></tr>
+
+
+
+<tr><td></td><td></td><td><h2>Mutations</h2></td></tr>
+
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@628962e5_8'>8</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@628962e5_8'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>add<br/><b>Killed by : </b>com.lawrence.arithmeticoperations.ArithmeticOperationsTest.[engine:junit-jupiter]/[class:com.lawrence.arithmeticoperations.ArithmeticOperationsTest]/[method:testAddWithTwoNumbers()]</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>add<br/><b>Killed by : </b>com.lawrence.arithmeticoperations.ArithmeticOperationsTest.[engine:junit-jupiter]/[class:com.lawrence.arithmeticoperations.ArithmeticOperationsTest]/[method:testAddWithTwoNumbers()]</span></span> replaced int return with 0 for com/lawrence/arithmeticoperations/ArithmeticOperations::add &rarr; KILLED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@628962e5_12'>12</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@628962e5_12'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>add<br/><b>Killed by : </b>com.lawrence.arithmeticoperations.ArithmeticOperationsTest.[engine:junit-jupiter]/[class:com.lawrence.arithmeticoperations.ArithmeticOperationsTest]/[method:testAddListOfNumbers()]</span></span> replaced int return with 0 for com/lawrence/arithmeticoperations/ArithmeticOperations::add &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>lambda$add$0<br/><b>Killed by : </b>com.lawrence.arithmeticoperations.ArithmeticOperationsTest.[engine:junit-jupiter]/[class:com.lawrence.arithmeticoperations.ArithmeticOperationsTest]/[method:testAddListOfNumbers()]</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>lambda$add$0<br/><b>Killed by : </b>com.lawrence.arithmeticoperations.ArithmeticOperationsTest.[engine:junit-jupiter]/[class:com.lawrence.arithmeticoperations.ArithmeticOperationsTest]/[method:testAddListOfNumbers()]</span></span> replaced Integer return value with 0 for com/lawrence/arithmeticoperations/ArithmeticOperations::lambda$add$0 &rarr; KILLED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@628962e5_16'>16</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@628962e5_16'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>substract<br/><b>Killed by : </b>com.lawrence.arithmeticoperations.ArithmeticOperationsTest.[engine:junit-jupiter]/[class:com.lawrence.arithmeticoperations.ArithmeticOperationsTest]/[method:testSubstractWithIncorrectInput()]</span></span> Replaced integer subtraction with addition &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>substract<br/><b>Killed by : </b>com.lawrence.arithmeticoperations.ArithmeticOperationsTest.[engine:junit-jupiter]/[class:com.lawrence.arithmeticoperations.ArithmeticOperationsTest]/[method:testSubstractWithTwoNumbers()]</span></span> replaced int return with 0 for com/lawrence/arithmeticoperations/ArithmeticOperations::substract &rarr; KILLED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@628962e5_20'>20</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@628962e5_20'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>multiply<br/><b>Killed by : </b>com.lawrence.arithmeticoperations.ArithmeticOperationsTest.[engine:junit-jupiter]/[class:com.lawrence.arithmeticoperations.ArithmeticOperationsTest]/[method:testMultipleWithTwoNumbers()]</span></span> Replaced integer multiplication with division &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>multiply<br/><b>Killed by : </b>com.lawrence.arithmeticoperations.ArithmeticOperationsTest.[engine:junit-jupiter]/[class:com.lawrence.arithmeticoperations.ArithmeticOperationsTest]/[method:testMultipleWithTwoNumbers()]</span></span> replaced int return with 0 for com/lawrence/arithmeticoperations/ArithmeticOperations::multiply &rarr; KILLED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@628962e5_24'>24</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@628962e5_24'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>divide<br/><b>Killed by : </b>com.lawrence.arithmeticoperations.ArithmeticOperationsTest.[engine:junit-jupiter]/[class:com.lawrence.arithmeticoperations.ArithmeticOperationsTest]/[method:testDivisionWithTwoNumbers()]</span></span> Replaced integer division with multiplication &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>divide<br/><b>Killed by : </b>com.lawrence.arithmeticoperations.ArithmeticOperationsTest.[engine:junit-jupiter]/[class:com.lawrence.arithmeticoperations.ArithmeticOperationsTest]/[method:testDivisionWithTwoNumbers()]</span></span> replaced int return with 0 for com/lawrence/arithmeticoperations/ArithmeticOperations::divide &rarr; KILLED</p> 
+</td>
+</tr>
+
+</table>
+
+
+<h2>Active mutators</h2>
+<ul>
+
+<li class='mutator'>CONDITIONALS_BOUNDARY</li>
+
+<li class='mutator'>EMPTY_RETURNS</li>
+
+<li class='mutator'>FALSE_RETURNS</li>
+
+<li class='mutator'>INCREMENTS</li>
+
+<li class='mutator'>INVERT_NEGS</li>
+
+<li class='mutator'>MATH</li>
+
+<li class='mutator'>NEGATE_CONDITIONALS</li>
+
+<li class='mutator'>NULL_RETURNS</li>
+
+<li class='mutator'>PRIMITIVE_RETURNS</li>
+
+<li class='mutator'>TRUE_RETURNS</li>
+
+<li class='mutator'>VOID_METHOD_CALLS</li>
+
+</ul>
+
+<h2>Tests examined</h2>
+<ul>
+<li>com.lawrence.arithmeticoperations.ArithmeticOperationsTest.[engine:junit-jupiter]/[class:com.lawrence.arithmeticoperations.ArithmeticOperationsTest]/[method:testAddListOfNumbers()] (1 ms)</li><li>com.lawrence.arithmeticoperations.ArithmeticOperationsTest.[engine:junit-jupiter]/[class:com.lawrence.arithmeticoperations.ArithmeticOperationsTest]/[method:testDivisionWithTwoNumbers()] (8 ms)</li><li>com.lawrence.arithmeticoperations.ArithmeticOperationsTest.[engine:junit-jupiter]/[class:com.lawrence.arithmeticoperations.ArithmeticOperationsTest]/[method:testMultipleWithIncorrectInput()] (2 ms)</li><li>com.lawrence.arithmeticoperations.ArithmeticOperationsTest.[engine:junit-jupiter]/[class:com.lawrence.arithmeticoperations.ArithmeticOperationsTest]/[method:testMultipleWithTwoNumbers()] (1 ms)</li><li>com.lawrence.arithmeticoperations.ArithmeticOperationsTest.[engine:junit-jupiter]/[class:com.lawrence.arithmeticoperations.ArithmeticOperationsTest]/[method:testSubstractWithIncorrectInput()] (1 ms)</li><li>com.lawrence.arithmeticoperations.ArithmeticOperationsTest.[engine:junit-jupiter]/[class:com.lawrence.arithmeticoperations.ArithmeticOperationsTest]/[method:testSubstractWithTwoNumbers()] (4 ms)</li><li>com.lawrence.arithmeticoperations.ArithmeticOperationsTest.[engine:junit-jupiter]/[class:com.lawrence.arithmeticoperations.ArithmeticOperationsTest]/[method:testAddWithTwoNumbers()] (1 ms)</li><li>com.lawrence.arithmeticoperations.ArithmeticOperationsTest.[engine:junit-jupiter]/[class:com.lawrence.arithmeticoperations.ArithmeticOperationsTest]/[method:testAddListOfNegativeNumbers()] (1 ms)</li><li>com.lawrence.arithmeticoperations.ArithmeticOperationsTest.[engine:junit-jupiter]/[class:com.lawrence.arithmeticoperations.ArithmeticOperationsTest]/[method:testDivisionWithIncorrectInput()] (1 ms)</li><li>com.lawrence.arithmeticoperations.ArithmeticOperationsTest.[engine:junit-jupiter]/[class:com.lawrence.arithmeticoperations.ArithmeticOperationsTest]/[method:testAddListOfNumbersWithIncorrectInput()] (5 ms)</li><li>com.lawrence.arithmeticoperations.ArithmeticOperationsTest.[engine:junit-jupiter]/[class:com.lawrence.arithmeticoperations.ArithmeticOperationsTest]/[method:testAddWithIncorrectInput()] (2 ms)</li>
+</ul>
+
+<br/>
+
+Report generated by <a href='http://pitest.org'>PIT</a> 1.9.0
+
+</body>
+</html>

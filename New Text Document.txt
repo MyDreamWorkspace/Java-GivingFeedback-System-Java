@@ -1,0 +1,1 @@
+maven clean, maven install and run project, select 3 assignment

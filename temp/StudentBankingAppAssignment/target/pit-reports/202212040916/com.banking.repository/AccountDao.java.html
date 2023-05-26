@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=windows-1252">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+<body>
+
+
+<h1>AccountDao.java</h1>
+
+<table class="src">
+
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@628ba266_1'/>
+1
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@628ba266_1'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>package com.banking.repository;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@628ba266_2'/>
+2
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@628ba266_2'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@628ba266_3'/>
+3
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@628ba266_3'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>import java.util.Optional;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@628ba266_4'/>
+4
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@628ba266_4'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@628ba266_5'/>
+5
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@628ba266_5'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>import com.banking.model.AccountModel;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@628ba266_6'/>
+6
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@628ba266_6'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@628ba266_7'/>
+7
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@628ba266_7'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>public class AccountDao {</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@628ba266_8'/>
+8
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@628ba266_8'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@628ba266_9'/>
+9
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@628ba266_9'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>&#9;public Optional&#60;AccountModel&#62; getAccountByAccountNumber(Integer accountNumber) {</span></pre></td></tr>
+
+
+<tr>
+<td class='uncovered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@628ba266_10'/>
+10
+</td>
+<td class='survived'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@628ba266_10'>1</a>
+<span>
+
+1. getAccountByAccountNumber : replaced return value with Optional.empty for com/banking/repository/AccountDao::getAccountByAccountNumber &rarr; NO_COVERAGE<br/>
+
+</span>
+</span>
+</td>
+<td class='uncovered'><pre><span  class='survived'>&#9;&#9;return InMemoryDB.getAccountByAccountNumber(accountNumber);</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@628ba266_11'/>
+11
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@628ba266_11'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>&#9;}</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@628ba266_12'/>
+12
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@628ba266_12'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@628ba266_13'/>
+13
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@628ba266_13'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>&#9;public AccountModel addNewAccount(AccountModel account) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@628ba266_14'/>
+14
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@628ba266_14'>1</a>
+<span>
+
+1. addNewAccount : replaced return value with null for com/banking/repository/AccountDao::addNewAccount &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>&#9;&#9;return InMemoryDB.addNewAccount(account);</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@628ba266_15'/>
+15
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@628ba266_15'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>&#9;}</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@628ba266_16'/>
+16
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@628ba266_16'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@628ba266_17'/>
+17
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@628ba266_17'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>&#9;public AccountModel updateAccount(AccountModel account) {</span></pre></td></tr>
+
+
+<tr>
+<td class='uncovered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@628ba266_18'/>
+18
+</td>
+<td class='survived'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@628ba266_18'>1</a>
+<span>
+
+1. updateAccount : replaced return value with null for com/banking/repository/AccountDao::updateAccount &rarr; NO_COVERAGE<br/>
+
+</span>
+</span>
+</td>
+<td class='uncovered'><pre><span  class='survived'>&#9;&#9;return InMemoryDB.updateAccount(account);</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@628ba266_19'/>
+19
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@628ba266_19'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>&#9;}</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@628ba266_20'/>
+20
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@628ba266_20'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@628ba266_21'/>
+21
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@628ba266_21'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>&#9;public void deleteAccount(AccountModel account) {</span></pre></td></tr>
+
+
+<tr>
+<td class='uncovered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@628ba266_22'/>
+22
+</td>
+<td class='survived'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@628ba266_22'>1</a>
+<span>
+
+1. deleteAccount : removed call to com/banking/repository/InMemoryDB::deleteAccount &rarr; NO_COVERAGE<br/>
+
+</span>
+</span>
+</td>
+<td class='uncovered'><pre><span  class='survived'>&#9;&#9;InMemoryDB.deleteAccount(account);</span></pre></td></tr>
+
+
+<tr>
+<td class='uncovered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@628ba266_23'/>
+23
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@628ba266_23'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='uncovered'><pre><span  class=''>&#9;}</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@628ba266_24'/>
+24
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@628ba266_24'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>}</span></pre></td></tr>
+
+
+
+<tr><td></td><td></td><td><h2>Mutations</h2></td></tr>
+
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@628ba266_10'>10</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@628ba266_10'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getAccountByAccountNumber<br/><b>Killed by : </b>none</span></span> replaced return value with Optional.empty for com/banking/repository/AccountDao::getAccountByAccountNumber &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@628ba266_14'>14</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@628ba266_14'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>addNewAccount<br/><b>Killed by : </b>com.banking.service.BankingDepositServiceTest.[engine:junit-jupiter]/[class:com.banking.service.BankingDepositServiceTest]/[method:depositTest()]</span></span> replaced return value with null for com/banking/repository/AccountDao::addNewAccount &rarr; KILLED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@628ba266_18'>18</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@628ba266_18'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>updateAccount<br/><b>Killed by : </b>none</span></span> replaced return value with null for com/banking/repository/AccountDao::updateAccount &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@628ba266_22'>22</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@628ba266_22'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>deleteAccount<br/><b>Killed by : </b>none</span></span> removed call to com/banking/repository/InMemoryDB::deleteAccount &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+
+</table>
+
+
+<h2>Active mutators</h2>
+<ul>
+
+<li class='mutator'>CONDITIONALS_BOUNDARY</li>
+
+<li class='mutator'>EMPTY_RETURNS</li>
+
+<li class='mutator'>FALSE_RETURNS</li>
+
+<li class='mutator'>INCREMENTS</li>
+
+<li class='mutator'>INVERT_NEGS</li>
+
+<li class='mutator'>MATH</li>
+
+<li class='mutator'>NEGATE_CONDITIONALS</li>
+
+<li class='mutator'>NULL_RETURNS</li>
+
+<li class='mutator'>PRIMITIVE_RETURNS</li>
+
+<li class='mutator'>TRUE_RETURNS</li>
+
+<li class='mutator'>VOID_METHOD_CALLS</li>
+
+</ul>
+
+<h2>Tests examined</h2>
+<ul>
+<li>com.banking.service.BankingWithdrawServiceTest.[engine:junit-jupiter]/[class:com.banking.service.BankingWithdrawServiceTest]/[method:withdrawNotEqualTest()] (1 ms)</li><li>com.banking.service.BankingWithdrawServiceTest.[engine:junit-jupiter]/[class:com.banking.service.BankingWithdrawServiceTest]/[method:balanceNullTest()] (1 ms)</li><li>com.banking.service.BankingWithdrawServiceTest.[engine:junit-jupiter]/[class:com.banking.service.BankingWithdrawServiceTest]/[method:withdrawTest()] (0 ms)</li><li>com.banking.service.BankingDepositServiceTest.[engine:junit-jupiter]/[class:com.banking.service.BankingDepositServiceTest]/[method:depositNegativeValueTest()] (1 ms)</li><li>com.banking.service.BankingDepositServiceTest.[engine:junit-jupiter]/[class:com.banking.service.BankingDepositServiceTest]/[method:depositTest()] (0 ms)</li><li>com.banking.service.BankingDepositServiceTest.[engine:junit-jupiter]/[class:com.banking.service.BankingDepositServiceTest]/[method:balanceNullTest()] (0 ms)</li><li>com.banking.service.BankingWithdrawServiceTest.[engine:junit-jupiter]/[class:com.banking.service.BankingWithdrawServiceTest]/[method:withdrawNegativeValueTest()] (1 ms)</li><li>com.banking.service.BankingWithdrawServiceTest.[engine:junit-jupiter]/[class:com.banking.service.BankingWithdrawServiceTest]/[method:balanceNullNotEqualTest()] (0 ms)</li><li>com.banking.service.BankingDepositServiceTest.[engine:junit-jupiter]/[class:com.banking.service.BankingDepositServiceTest]/[method:balanceTest()] (1 ms)</li><li>com.banking.service.BankingDepositServiceTest.[engine:junit-jupiter]/[class:com.banking.service.BankingDepositServiceTest]/[method:depositNullNotEqualTest()] (9 ms)</li><li>com.banking.service.BankingWithdrawServiceTest.[engine:junit-jupiter]/[class:com.banking.service.BankingWithdrawServiceTest]/[method:withdrawWithZeroBalanceTest()] (1 ms)</li><li>com.banking.service.BankingDepositServiceTest.[engine:junit-jupiter]/[class:com.banking.service.BankingDepositServiceTest]/[method:depositNotEqualTest()] (1 ms)</li><li>com.banking.service.BankingWithdrawServiceTest.[engine:junit-jupiter]/[class:com.banking.service.BankingWithdrawServiceTest]/[method:withdrawNullTest()] (0 ms)</li><li>com.banking.service.BankingDepositServiceTest.[engine:junit-jupiter]/[class:com.banking.service.BankingDepositServiceTest]/[method:depositNullTest()] (1 ms)</li><li>com.banking.service.BankingDepositServiceTest.[engine:junit-jupiter]/[class:com.banking.service.BankingDepositServiceTest]/[method:depositZeroValueTest()] (1 ms)</li><li>com.banking.service.BankingWithdrawServiceTest.[engine:junit-jupiter]/[class:com.banking.service.BankingWithdrawServiceTest]/[method:withdrawNullNotEqualTest()] (0 ms)</li><li>com.banking.service.BankingDepositServiceTest.[engine:junit-jupiter]/[class:com.banking.service.BankingDepositServiceTest]/[method:balanceNotEqualTest()] (0 ms)</li><li>com.banking.service.BankingDepositServiceTest.[engine:junit-jupiter]/[class:com.banking.service.BankingDepositServiceTest]/[method:balanceNullNotEqualTest()] (1 ms)</li><li>com.banking.service.BankingWithdrawServiceTest.[engine:junit-jupiter]/[class:com.banking.service.BankingWithdrawServiceTest]/[method:withdrawZeroValueTest()] (1 ms)</li>
+</ul>
+
+<br/>
+
+Report generated by <a href='http://pitest.org'>PIT</a> 1.9.0
+
+</body>
+</html>
